@@ -1,5 +1,157 @@
+:root {
+    --blue-light: #2289FF;
+    --primary: #0F2B4A;
+    --hero-container-margin-top: 9.4rem;
+    --second: #576B81;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* header  */
+
+.header {
+    padding: 3rem 13.5rem 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nav-menu-item {
+    font-size: 1.6rem;
+    margin-left: 5.2rem;
+    color: #0F2B4A;
+}
+
+.nav-menu-item:last-of-type {
+    display: flex;
+    margin-left: 6rem;
+}
+
+.nav-menu-item-button {
+    width: 10.8rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.nav-menu-item-button:first-of-type {
+    border: 1px solid var(--blue-light);
+    color: var(--blue-light);
+    background-color: white;
+}
+
+.nav-menu-item-button:last-of-type {
+    background-color: var(--blue-light);
+    color: white;
+    margin-left: 1.8rem;
+}
+
+/* hero */
+
+.hero-container {
+    display: flex;
+    margin-top: var(--hero-container-margin-top);
+}
+
+.hero-content {
+    width: 58.5rem;
+}
+
+.hero-content-title {
+    font-size: 7rem;
+    line-height: 8.6rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-top: calc(15.4rem - 9.4rem);
+}
+
+.hero-content-image {
+    width: 58.5rem;
+    height: 60rem;
+    margin-left: auto;
+    transform: translateX(7rem);
+}
+
+.hero-content-des {
+    margin-top: 2.3rem;
+    color: var(--second);
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.hero-content-search {
+    display: inline-flex;
+    margin-top: 3.8rem;
+    align-items: center;
+    font-size: 1.4rem;
+    border: 1px solid #2289ff16;
+    border-radius: 0.6rem;
+    width: 43rem;
+    height: 6.8rem;
+}
+
+.hero-content-search-info {
+    display: flex;
+    margin-left: 1.6rem;
+}
+
+.search-info-item:last-of-type {
+    margin-left: 3rem;
+}
+
+
+.search-info-item h5 {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.search-info-item p {
+    margin-top: 0.6rem;
+    color: var(--second);
+}
+
+.hero-content-search-button {
+    width: 9.2rem;
+    height: 4.2rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: var(--blue-light);
+    border-radius: 0.6rem;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 2.1rem;
+}
+
+.logo-sp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9rem;
 }
