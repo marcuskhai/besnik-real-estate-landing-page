@@ -23,7 +23,7 @@ li {
 /* header  */
 
 .header {
-    padding: 3rem 13.5rem 0;
+    padding: 3rem 13.5rem 5.4rem;
 }
 
 .nav {
@@ -154,4 +154,290 @@ li {
     display: flex;
     justify-content: space-between;
     margin-top: 9rem;
+}
+
+ /* WHY CHOOSE US */
+ .why-choose-us {
+    margin-top: 1.4rem;
+    padding: 7.2rem 13.5rem 6.3rem;
+ }
+
+ .wcu-title {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--primary);
+    text-align: center;
+    line-height: 5.8rem;
+}
+
+ .wcu-cards {
+    margin-top: 6.6rem;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .wcu-card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 4.6rem;
+    padding-bottom: 4.4rem;
+ }
+
+ .wcu-card-img {
+    width: 12.25rem;
+    height: 9.4rem;
+    object-fit: contain;
+ }
+
+ .wcu-card-title{
+    margin-top: 6.7rem;
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: var(--primary);
+ }
+
+ .wcu-card-des {
+    margin-top: 2.2rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--second);
+    text-align: center;
+    /* font-family: roboto; */
+ }
+
+ /* FEATURE */
+ .feature {
+    margin-top: 1.7rem;
+    padding: 6rem 13.5rem 8.6rem;
+ }
+
+ .feature-content {
+    display: flex;
+    align-items: flex-start;
+ }
+
+ 
+ .feature-content-text-title {
+     font-weight: 600;
+     font-size: 4.8rem;
+     line-height: 6.2rem;
+     color: var(--primary);
+    }
+    
+.feature-content-text-des {
+        margin-top: 3rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        color: var(--second);
+    }
+
+.feature-content-button {
+       margin-left: auto;
+       display: flex;
+    }
+    
+.feature-content-button-property {
+        font-size: 1.4rem;
+        color: var(--second);
+        padding: 1.2rem 3rem;
+        border: 1px solid #efefef;
+        margin-right: 4rem;
+        border-radius: 0.6rem;  
+}
+
+.feature-content-button-property img {
+    margin-left: 2rem;
+}
+
+.feature-content-button-see-all {
+    font-size: 1.4rem;
+    color: white;
+    background: var(--blue-light);
+    padding: 1.2rem 3rem;
+    border-radius: 0.6rem;
+}
+
+.feature-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 7.8rem;
+    grid-row-gap: 5.2rem;
+    margin-top: 4.8rem;
+    border-radius: 6px;
+}
+
+.feature-card {
+    display: flex;
+    border: 1px solid #D7EAFF;
+    border-radius: 0.6rem;
+    padding: 1.4rem 2.8rem 1.4rem 1.4rem;
+}
+
+.feature-card-selected {
+ box-shadow: 29px 43px 70px -10px rgba(189, 189, 189, 0.16);
+border: none;
+}
+
+.feature-card-img {
+    width: 21.6rem;
+    height: 21.6rem;
+}
+
+.feature-card-content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2.5rem;
+    margin-top: 1.4rem;
+    justify-content: space-between;
+}
+
+/* .feature-card-content-heart {
+    margin-left: 7.5rem;
+} */
+
+.feature-card-content-container-price {
+    color: var(--blue-light);
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 2%;
+}
+
+.feature-card-content-container-title {
+ margin-top: 1.8rem;   
+ color: var(--primary);
+ font-size: 2.2rem;
+ font-weight: 500;
+}
+
+.feature-card-content-container-des {
+    margin-top: 1.2rem;
+    color: var(--second);
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.feature-card-content-container-info {
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 400;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    color: var(--second);
+}
+
+.feature-card-content-container-btn {
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: var(--blue-light);
+    border: none;
+    padding: 0.9rem 1.5rem;
+    border-radius: 0.6rem;
+}
+
+.feature-cards-arrow {
+    text-align: center;
+    margin-top: 4.1rem;
+}
+
+/* testimonial */
+.testimonial {
+   padding-left: 9.7rem;
+   padding-right: 13.5rem;
+   padding-top: 12.9rem;
+   padding-bottom: 12.7rem;
+   background-color:  red;
+}
+
+.testimonial-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-content-des {
+    color: var(--second);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+}
+
+.testimonial-users {
+   width: 100%;
+   /* margin-top: 1rem; */
+}
+
+.testimonial-title {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--primary);
+    /* text-align: center; */
+}
+
+.testimonial-content-avatar {
+    width: 25.4rem;
+    height: 25.4rem;
+}
+
+
+/* NEWSLETTER */
+.newsletter {
+    background-color: #0F2A47;
+    display: flex;
+    padding: 11.2rem 13.5rem;
+}
+
+.newsletter-text h2 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 5.8rem;
+}
+
+.newsletter-text p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #B6BEC8;
+    margin-top: 2.2rem;
+}
+
+.newsletter-search {
+    margin-left: auto;
+}
+
+.newsletter-search p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+
+.newsletter-search-bar {
+    margin-top: 1.4rem;
+    display: flex;
+    width: 36.6rem;
+    background-color: #ffffff;
+    border-radius: 0.6rem;
+    padding: 1.7rem;
+}
+
+.newsletter-search-bar input {
+    border: none;
+    outline: none;
+    border-radius: inherit;
+}
+
+.newsletter-search-bar .search-icon {
+  background-color: var(--blue-light);
+ 
+  margin-left: auto;
+  border-radius: inherit;
 }
